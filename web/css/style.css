@@ -1,0 +1,411 @@
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+* {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: border-box;
+  border: 10px;
+}
+
+body {
+  background: #e0e0e0;
+  color: #000;
+  font: 100%/1.5em "Varela Round", sans-serif;
+/*    border: 10px;*/
+    
+}
+
+input {
+  background-image: none;
+  border: none;
+  font: 100%/1.5em "Varela Round", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.container {
+  left: 680px;
+  position: fixed;
+  top: 129px;
+  border-radius: 10px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 14px;
+    
+
+}
+
+/* ---------- LOGIN ---------- */
+#login {
+  width: 510px;
+  height: 129px;
+    text-align: center;
+    
+    
+}
+
+#login h2 {
+  background: #e26161;
+/*  border-radius: 10px;*/
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #fff;
+    
+  font-size: 28px;
+  padding: 20px 26px;
+  height: 198px;
+    font-size: 45px;
+    font-family: Lato;
+}
+#login h2 img {
+margin-top: 65px;
+    margin-right: 10px;
+    font-size: 45px;
+    
+}
+
+#login h2 span {
+  margin-right: 14px;
+margin-top: 120px;
+    margin-bottom: 50%;
+font-size: 57px;
+
+}
+#login h2 span i {
+
+font-style: italic;
+font-size: 45px;
+
+}
+
+#login fieldset {
+  background: #fff;
+/*  border-radius: 10px;*/
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px 26px;
+  height:269px;
+    border: solid 0px
+}
+
+
+#login fieldset p {
+  color: #ffffff;
+  margin-bottom: 14px;
+    margin-top: 16px;
+ text-align: center; 
+  font-family: Lato;
+  font-size: 14px;
+  color: #c3c3c3;
+
+}
+
+#login fieldset p:last-child {
+  margin-bottom: 0;
+    background: #fff;
+}
+
+#login fieldset input {
+/*  border-radius: 10px;*/
+    background: #fff;
+}
+
+
+#login fieldset input[type="email"], #login fieldset input[type="password"] {
+  background: #eee;
+  color: #e26161;
+  padding: 5px 11px;
+  width: 80%;
+  border:14px;
+  font-family: Lato;
+  color: #c6c6c6;
+  font-size: 14px;
+    background-color: white;
+    border: solid 1px;
+    border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+#login fieldset p t  {
+  margin-right: 200px;
+  color:#c3c3c3;
+   
+}
+
+#login fieldset p t a  {
+  margin-left: 100px;
+  color:#c3c3c3;
+    
+
+}
+
+#login fieldset input[type="submit"] {
+  background: #e26161;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 80%;
+  border-radius: 30px;
+  font-size: 14px;
+     margin-bottom: 200px;
+    
+  
+  font-family: Lato;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+#login fieldset input[type="submit"]:hover {
+  background: #e26161;
+  
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+
+* {margin:0; padding:0;}
+ 
+body {
+ background-color:#e0e0e0;
+ font-family:Arial, Helvetica, sans-serif;
+ color:#000;
+}
+
+nav {
+ margin:auto;
+ text-align: center;
+ width: 103%;
+height: 7%;
+} 
+
+nav ul ul {
+ display: none;
+}
+
+nav ul {
+ background: #e26161;
+ padding: 0 20px;
+ list-style: none;
+ position: relative;
+ display: inline-table;
+ width: 100%;
+}
+
+nav ul:after {
+ content: ""; 
+ clear:both; 
+ display: block;
+}
+
+nav ul li {
+ float:left;
+ padding: 15px;
+}
+
+
+
+nav ul li:hover a{
+ color:#fff;
+}
+
+nav ul li i a {
+ display: block;
+ padding: 0px;
+ padding-right: 90px;
+ color: #fff;
+ font-size: 40px;
+}
+
+nav ul li i a i {
+ margin-left: -7px;
+ margin-top: 800px;
+}
+
+nav ul li i i{
+ font-style: italic;
+}
+
+
+nav ul li a{
+ display: block;
+ padding: 0px;
+ padding-left: 33px;
+ color: #fff;
+
+}
+
+nav ul ul{
+ background: #53bd84;
+ border-radius: 0px;
+ padding: 0;
+ position: absolute;
+ top:100%;
+}
+
+nav ul ul li{
+ float:none;
+ border-top: 1px soild #53bd84;
+ border-bottom: 1px solid #53bd84;
+ position: relative;
+}
+
+nav ul ul li a{
+ padding: 15px 40px;
+ color: #fff;
+}
+
+
+
+nav ul ul ul{
+ position: absolute;
+ left: 100%;
+ top: 0;
+}
+
+
+
+/* MENU RATA KANAN */
+#menu-kanan{
+  float: right;
+  width: 170px;
+  height: 55px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 50px;
+  margin-bottom: 17px;
+  border-radius: 14px;
+  border: solid 2px #ffffff;
+}
+
+#menu-verifikasi input[type="submit"]{
+  float: right;
+  width: 220px;
+  height: 55px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 17px;
+  border-radius: 14px;
+  border: solid 2px #ffffff;
+  background-color: #e26161;
+    
+  
+  font-family: Lato;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+
+
+#menu-verifikasi input[type="image"]{
+  float: right;
+  width: 220px;
+  height: 55px;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 17px;
+  border-radius: 14px;
+  border: solid 2px #ffffff;
+  background-color: #e26161;
+    
+  
+  font-family: Lato;
+  text-align: center;
+  color: #ffffff;
+}
+#menu-verifikasi{ 
+  font-family: Lato;
+  text-align: center;
+  color: #ffffff;
+    
+}
+
+
+
+
+
+
+.notif{ /* Bagian kolom isi web */
+ position:absolute;
+ margin-top: 105px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 45px;
+ left:0;
+ right:0;
+ top:0;
+ bottom:0;
+ background-color: #fffac3;
+ font-size: 11px; 
+ width: 1200px;
+ height: 96px;
+ border-radius: 8px;
+}
+
+.background{
+background-color: #e0e0e0;
+}
+
+.tengah{ 
+ position:absolute;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:220px;
+ margin-bottom:40px;
+ left:0;
+ right:0;
+ top:0;
+ bottom:0;
+ background-color:#ffffff; 
+ width: 1200px;
+ height: 600px;
+ border-radius: 8px;
+ 
+}
+
+.tengah h4{ 
+  margin-left: 270px;
+  margin-bottom: 6px;
+  color:#c3c3c3;
+  font-style: bold;
+}
+
+input[type=text] {
+    margin-top: 30px;
+    margin-bottom: -40px;
+    margin-left: 30px;
+    width: 256px;
+    height: 24px;
+    box-sizing: border-box;
+    border: solid 1px #dfdfdf;
+    border-radius: 31px;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: italic;
+    text-align: left;
+    color: #c6c6c6;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
